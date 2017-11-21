@@ -1,0 +1,17 @@
+{
+  "name": "home-weather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Khôi Tran",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.19.2",
+    "mqtt": "^2.14.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
