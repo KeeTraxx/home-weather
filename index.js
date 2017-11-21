@@ -34,8 +34,8 @@ function fetchData () {
             json: true
         }).then(data => {
             jsonData.outside = data.main
-            jsonData.sunrise = moment(data.sys.sunrise).format('hh:MM')
-            jsonData.sunset = moment(data.sys.sunset).format('hh:MM')
+            jsonData.sunrise = moment(data.sys.sunrise*1000).format('hh:MM')
+            jsonData.sunset = moment(data.sys.sunset*1000).format('hh:MM')
         })    
     } else {
         console.error("No APPID Env defined. Not fetching weather data.")
