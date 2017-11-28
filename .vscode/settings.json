@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/ktran/.platformio/penv/bin:/home/ktran/.gvm/versions/go1.9.linux.amd64/bin:/home/ktran/.nvm/versions/node/v8.7.0/bin:/home/ktran/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/home/ktran/go/bin"
+    }
+}

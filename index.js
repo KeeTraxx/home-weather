@@ -1,4 +1,4 @@
-var moment = require('moment')
+var moment = require('moment-timezone')
 var request = require('request-promise')
 var mqtt = require('mqtt')
 
